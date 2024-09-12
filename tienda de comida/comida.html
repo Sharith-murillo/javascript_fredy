@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Comida</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Tienda de Comida</h1>
+    <div id="tables">
+        <!-- Mesa 1 -->
+        <div class="table" id="table-1">
+            <h2>Mesa 1</h2>
+            <div class="menu">
+                <select class="menu-select food-select" data-table="1">
+                    <option disabled selected>Comidas</option>
+                    <option value="pizza" data-price="40000">Pizza - $40,000</option>
+                    <option value="burger" data-price="30000">Hamburguesa - $30,000</option>
+                    <option value="pasta" data-price="35000">Pasta - $35,000</option>
+                    <option value="salad" data-price="25000">Ensalada - $25,000</option>
+                </select>
+                <select class="menu-select drink-select" data-table="1">
+                    <option disabled selected>Bebidas</option>
+                    <option value="soda" data-price="5000">Soda - $5,000</option>
+                    <option value="coffee" data-price="8000">Café - $8,000</option>
+                    <option value="juice" data-price="6000">Jugo Natural - $6,000</option>
+                    <option value="water" data-price="3000">Agua - $3,000</option>
+                </select>
+                <button class="add-btn">Añadir</button>
+            </div>
+            <ul class="order-list"></ul>
+            <p>Total: $<span class="total-price">0</span> COP</p>
+        </div>
+
+        <!-- Mesa 2 -->
+        <div class="table" id="table-2">
+            <h2>Mesa 2</h2>
+            <div class="menu">
+                <select class="menu-select food-select" data-table="2">
+                    <option disabled selected>Comidas</option>
+                    <option value="pizza" data-price="40000">Pizza - $40,000</option>
+                    <option value="burger" data-price="30000">Hamburguesa - $30,000</option>
+                    <option value="pasta" data-price="35000">Pasta - $35,000</option>
+                    <option value="salad" data-price="25000">Ensalada - $25,000</option>
+                </select>
+                <select class="menu-select drink-select" data-table="2">
+                    <option disabled selected>Bebidas</option>
+                    <option value="soda" data-price="5000">Soda - $5,000</option>
+                    <option value="coffee" data-price="8000">Café - $8,000</option>
+                    <option value="juice" data-price="6000">Jugo Natural - $6,000</option>
+                    <option value="water" data-price="3000">Agua - $3,000</option>
+                </select>
+                <button class="add-btn">Añadir</button>
+            </div>
+            <ul class="order-list"></ul>
+            <p>Total: $<span class="total-price">0</span> COP</p>
+        </div>
+
+        <!-- Mesa 3 -->
+        <div class="table" id="table-3">
+            <h2>Mesa 3</h2>
+            <div class="menu">
+                <select class="menu-select food-select" data-table="3">
+                    <option disabled selected>Comidas</option>
+                    <option value="pizza" data-price="40000">Pizza - $40,000</option>
+                    <option value="burger" data-price="30000">Hamburguesa - $30,000</option>
+                    <option value="pasta" data-price="35000">Pasta - $35,000</option>
+                    <option value="salad" data-price="25000">Ensalada - $25,000</option>
+                </select>
+                <select class="menu-select drink-select" data-table="3">
+                    <option disabled selected>Bebidas</option>
+                    <option value="soda" data-price="5000">Soda - $5,000</option>
+                    <option value="coffee" data-price="8000">Café - $8,000</option>
+                    <option value="juice" data-price="6000">Jugo Natural - $6,000</option>
+                    <option value="water" data-price="3000">Agua - $3,000</option>
+                </select>
+                <button class="add-btn">Añadir</button>
+            </div>
+            <ul class="order-list"></ul>
+            <p>Total: $<span class="total-price">0</span> COP</p>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
